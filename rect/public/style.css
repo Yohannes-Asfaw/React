@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+}
+html{
+  font-family: 'Montserrat', sans-serif; 
+}
+heading h1{
+    background-color: #f5ba13;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: 200;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 3px 0 rgb(82, 77, 77);
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom:  0;
+    width: 100%;
+}
+.note{
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 5px 10px 20px 5px #ccc;
+    padding: 20px;
+    margin: 16px 30px;
+    width: 240px;
+    float: left;
+
+}
+.note h1{
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+.note p{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+
+}
